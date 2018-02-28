@@ -40,3 +40,9 @@ button{
   border: none;
   padding: 10px;
   }
+
+/* below is extra */
+.toggleTitleColor{
+ color: blue ;
+}
+ /* above is extra */

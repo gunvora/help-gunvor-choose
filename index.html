@@ -30,20 +30,13 @@
     </script>
 
 <!-- Below extra
-This heading toggle is not working!!!!!!
-......-->
-
-    <script>
-
-      $('.rubrik').toggle(
-        function() {$('.rubrik').css({'color': 'red'});},
-        function() {$('.rubrik').css({'color': 'green'});},
-        function() {$('.rubrik').css({'color': 'blue'});
-      });
-
-    </script>
-
-<!-- Above extra .....-->
+Toggles title color when clicked -->
+  <script>
+    $('.rubrik').click(function()  {
+    $('.rubrik').toggleClass('toggleTitleColor')
+   });
+   </script>
+<!-- Above extra -->
 
   </body>
 </html>
