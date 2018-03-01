@@ -41,6 +41,14 @@ button{
   padding: 10px;
   }
 
+.resultSection  {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  }
+
 /* below is extra */
 .toggleTitleColor{
  color: blue ;
