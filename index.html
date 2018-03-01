@@ -31,15 +31,18 @@
           $('.inputSection').hide()
           $('.resultSection').css('display', 'flex')
           $('input').each(function() {
+            if($(this).val() != "") {
             options.push($(this).val())
+            }
           })
           var winner = options[Math.floor(Math.random() * options.length)]
-            $('.resultSection').text(winner)
-          }
-          $('.submit').click(submit)
+          $('.resultSection').text(winner)
+          $('.rubrik').text("The winner is:")
+        }
+        $('.submit').click(submit)
       })
       </script>
-      
+
 <!-- Below extra
 Toggles title color when clicked -->
   <script>
