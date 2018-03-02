@@ -10,7 +10,6 @@ body {
 h1 {
   font-size: 40px;
   font-weight: 500;
-  font-style: oblique;
   letter-spacing: 2px;
   margin-bottom: 5px;
 }
@@ -53,4 +52,29 @@ button{
 .toggleTitleColor{
  color: blue ;
 }
+
+.rubrik:hover {
+  background-color: yellow;
+  font-style: oblique;
+}
+
+  h2  {
+    font-size: 20px;
+    font-weight: 300;
+  }
+
+  .explain  {
+    width: 400px;
+    margin: 50px 0px 80px 0px;
+    font-style: oblique;
+  }
+
+  .refreshinfo  {
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    margin: 80px 0px 80px 0px;
+    font-style: oblique;
+  }
+
  /* above is extra */

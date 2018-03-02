@@ -7,6 +7,8 @@
   </head>
   <body>
     <h1 class="rubrik">Help me choose between ...</h1>
+    <h2 class="explain">Type in different options, e.g. what to have for dinner, what beer to order, what to wear at the party, etc., and you will get support to decide. Good luck!</h2>
+
     <div class="inputSection">
       <div class="inputs">
         <input placeholder="Something"></input>
@@ -15,6 +17,7 @@
     </div>
     <div class="resultSection"></div>
     <button class="submit">Go!</button>
+    <h2 class="refreshinfo">(Refresh to make a new selction)</h2>
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script>
@@ -38,7 +41,8 @@
           var winner = options[Math.floor(Math.random() * options.length)]
           $('.resultSection').text(winner)
           $('.rubrik').text("The winner is:")
-        }
+            $('.explain').hide()
+                  }
         $('.submit').click(submit)
       })
       </script>
@@ -51,6 +55,9 @@ Toggles title color when clicked -->
    });
    </script>
 <!-- Above extra -->
+
+<!--  <div class = 'fade'></div> -->
+
 
   </body>
 </html>
