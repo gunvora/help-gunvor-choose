@@ -16,7 +16,7 @@ h1 {
 
 .inputSection {
   margin: 50px 0px 80px 0px;
-  width: 400px;
+  width: 300px;
 }
 
 .inputs {
@@ -64,8 +64,8 @@ button{
   }
 
   .explain  {
-    width: 400px;
-    margin: 50px 0px 80px 0px;
+    width: 300px;
+    margin: 50px 0px 50px 0px;
     font-style: oblique;
   }
 
@@ -73,7 +73,7 @@ button{
     font-size: 15px;
     display: flex;
     justify-content: center;
-    margin: 80px 0px 80px 0px;
+    margin: 80px 0px 0px 0px;
     font-style: oblique;
   }
 
